@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'JSONUtilitiesWP'
+  spec.name         = 'JSONUtilities'
   spec.homepage     = 'https://github.com/willpowell8/JSONUtilities'
   spec.version      = '5.0.3'
   spec.license      = { :type => 'MIT' }
