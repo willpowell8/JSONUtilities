@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
   spec.name         = 'JSONUtilitiesWP'
-  spec.homepage     = 'https://github.com/willpowell8/JSONUtilitiesWP'
-  spec.version      = '5.0.1'
+  spec.homepage     = 'https://github.com/willpowell8/JSONUtilities'
+  spec.version      = '5.0.2'
   spec.license      = { :type => 'MIT' }
   spec.authors      = { 'Will Powell' => 'willpowell8@gmail.com' }
   spec.summary      = 'Easily load JSON objects and decode them into structs or classes'
   spec.source           = {
-    :git => "https://github.com/willpowell8/JSONUtilitiesWP.git",
+    :git => "https://github.com/willpowell8/JSONUtilities.git",
     :tag => spec.version.to_s
   }
   spec.source_files = 'Sources/**/*.swift'
