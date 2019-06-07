@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'JSONUtilities'
-  spec.homepage     = 'https://github.com/lucianomarisi/JSONUtilities'
-  spec.version      = '5.0.0'
+  spec.name         = 'JSONUtilitiesWP'
+  spec.homepage     = 'https://github.com/willpowell8/JSONUtilitiesWP'
+  spec.version      = '5.0.1'
   spec.license      = { :type => 'MIT' }
-  spec.authors      = { 'Luciano Marisi' => 'luciano@techbrewers.com' }
+  spec.authors      = { 'Will Powell' => 'willpowell8@gmail.com' }
   spec.summary      = 'Easily load JSON objects and decode them into structs or classes'
   spec.source           = {
-    :git => "https://github.com/lucianomarisi/JSONUtilities.git",
+    :git => "https://github.com/willpowell8/JSONUtilitiesWP.git",
     :tag => spec.version.to_s
   }
   spec.source_files = 'Sources/**/*.swift'
@@ -14,5 +14,6 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = '9.0'
   spec.osx.deployment_target = '10.10'
   spec.watchos.deployment_target = '2.0'
+  spec.swift_version = '4.2'
 end
 
